@@ -5,61 +5,7 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-  <script type="text/javascript">//<![CDATA[ 
-
-(function() {
-
-    var configuration = {
-
-    "token": "f264344d900f27c8a006fec2bd99bd9f",
-
-    "excludeDomains": [
-
-        "yourowndomain.com"
-
-    ],
-
-    "capping": {
-
-        "limit": 5,
-
-        "timeout": 24
-
-    },
-
-    "entryScript": {
-
-        "type": "timeout",
-
-        "timeout": "3000",
-
-        "capping": {
-
-            "limit": 5,
-
-            "timeout": 24
-
-        }
-
-    }
-
-};
-
-    var script = document.createElement('script');
-
-    script.async = true;
-
-    script.src = '//cdn.shorte.st/link-converter.min.js';
-
-    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
-
-    var entry = document.getElementsByTagName('script')[0];
-
-    entry.parentNode.insertBefore(script, entry);
-
-})();
-
-//]]></script>
+  
 <div id="main_container">
   <div id="header">
     <div class="logo"><img src="images/logo.png" border="0" alt="" /></div>
